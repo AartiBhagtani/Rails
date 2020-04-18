@@ -15,7 +15,6 @@ group :production, :staging do
   gem 'pg', '~> 0.12.2'
 end
 
-gem 'sqlite3'
 gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 6'
