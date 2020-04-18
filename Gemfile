@@ -12,7 +12,7 @@ end
 # Use Puma as the app server
 
 group :production, :staging do
-  gem 'pg', '~> 0.12.2'
+  gem 'pg'
 end
 
 gem 'puma', '~> 4.1'
