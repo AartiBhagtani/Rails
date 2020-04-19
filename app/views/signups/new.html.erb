@@ -1,0 +1,18 @@
+<div class="jumbotron">
+  <h1>Welcome to Stories</h1>
+  <%= form_for :Happiness, url: signups_path do |f| %>
+    <p>
+      <%= f.label :first_name %>
+      <%= f.text_field(:first_name, {:class => 'form-control'} )%>
+    </p>
+    <p>
+      <%= f.label :You_are_Happy_and_grateful_for? %>
+      <%= f.text_field(:email, {:class => 'form-control'})%>
+    </p>
+    <p>
+      <%= f.submit({:class => 'btn btn-primary'}) %>
+    </p>
+  <% end %>
+
+  <h4>Enjoy Your Day :)</h4>
+</div>
